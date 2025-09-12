@@ -1,6 +1,9 @@
 #include <iostream>
 int main()
 {
-    std::cout << "Heloo woorld!!"<<std::endl;
-    return 0;
+   int lupkazalupka = -1;
+   for(int i = 0; i <=200; i++){
+       lupkazalupka += 1;
+       std::cout<<"lupkazalupka="<<lupkazalupka<<std::endl; 
+    }
 }
