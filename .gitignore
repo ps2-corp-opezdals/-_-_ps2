@@ -1,0 +1,79 @@
+# Исключаем исполняемые файлы
+*.exe
+*.out
+*.app
+
+# Объектные файлы
+*.o
+*.obj
+
+# Библиотеки
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Файлы отладки
+*.pdb
+*.idb
+*.ilk
+*.db
+
+# Файлы компиляции
+*.slo
+*.lo
+*.ko
+*.aux
+*.lof
+*.lot
+*.out
+*.toc
+
+# Файлы зависимостей
+*.d
+
+# Файлы проектов IDE
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.project
+*.cbp
+*.workspace
+
+# Файлы сборки CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Файлы временные и автоматически генерируемые
+*.swp
+*.swo
+*~
+*.DS_Store
+Thumbs.db
+
+# Папки сборки
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Файлы предкомпилированных заголовков
+*.gch
+*.pch
+
+# Файлы покрытия кода
+*.gcno
+*.gcda
+*.gcov
+
+# Файлы профилирования
+*.profraw
+*.profdata
