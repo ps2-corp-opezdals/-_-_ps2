@@ -16,4 +16,4 @@ void recursiveFunction(int vod, int nexnt = 1, int past = 0, int counter = 0) {
 int main() {
     recursiveFunction(5);
     return 0;
-}
+}        
